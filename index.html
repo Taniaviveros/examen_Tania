@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Nido del Craving - Xalapa</title>
     <style>
-        
         body {
             font-family: Arial, sans-serif;
             margin: 10;
             padding: 5;
-            background-color: black
+            background-color: black;
             color: #861caf;
         }
 
@@ -23,8 +22,8 @@
 
         header {
             position: static;
-            
         }
+
         header img {
             position: absolute;
             top: 5px;
@@ -112,7 +111,6 @@
             background-color: rgba(0, 0, 0, 0.8);
         }
 
-        /* Estilos para el pie de página */
         footer {
             background-color: antiquewhite;
             color: black;
@@ -122,20 +120,67 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            header img {
+                width: 60px;
+            }
+
+            nav a {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+
+            .carousel {
+                max-width: 100%;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            footer {
+                font-size: 12px;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                display: block;
+                padding: 12px;
+                font-size: 16px;
+            }
+
+            .carousel-controls {
+                top: 45%;
+            }
+
+            footer {
+                font-size: 10px;
+                padding: 10px;
+            }
+        }
     </style>
 </head>
-<head>     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
 
     <header>
-       <div class="clearfix">
-  <img src="img/DALL%C2%B7E%202024-10-10%2011.59.44%20-%20A%20minimalist%20logo%20design%20for%20a%20fast%20food%20restaurant%20called%20'El%20Nido%20del%20Craving'.%20The%20design%20should%20focus%20on%20clean,%20simple%20lines%20and%20a%20modern%20aestheti%20(1).webp" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
- 
-   <h1>Bienvenidos al Nido del Craving</h1>
-<p>¡El lugar perfecto para disfrutar de hamburguesas, pizzas y yogurt en Xalapa!</p>
-</div>
+        <div class="clearfix">
+            <img src="img/DALL%C2%B7E%202024-10-10%2011.59.44%20-%20A%20minimalist%20logo%20design%20for%20a%20fast%20food%20restaurant%20called%20'El%20Nido%20del%20Craving'.%20The%20design%20should%20focus%20on%20clean,%20simple%20lines%20and%20a%20modern%20aestheti%20(1).webp" alt="Logo">
+            <h1>Bienvenidos al Nido del Craving</h1>
+            <p>¡El lugar perfecto para disfrutar de hamburguesas, pizzas y yogurt en Xalapa!</p>
+        </div>
     </header>
-    <head>     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <nav>
         <a href="#home">Inicio</a> 
@@ -145,16 +190,13 @@
     </nav>
 
     <div class="container">
-        
-       
         <section id="home">
-            <p>En el Nido del Craving sabemos lo que los estudiantes necesitan: comida deliciosa, rápida y accesible. Ya sea que estés buscando un almuerzo rápido entre clases o un lugar cómodo para relajarte con amigos, ¡tenemos lo que necesitas!</p>
+            <p>En el Nido del Craving sabemos lo que los estudiantes necesitan: comida deliciosa, rápida y accesible...</p>
         </section>
 
-        
         <section id="promotions">
             <h2>Nuestras Promociones</h2>
-             <ul>
+            <ul>
                 <li><strong>Combo Estudiante:</strong> Hamburguesa + Papas + Refresco por solo $79 MXN.</li>
                 <li><strong>Pizza 2x1:</strong> Todos los martes y jueves disfruta de nuestras pizzas al 2x1.</li>
                 <li><strong>Yogurt Especial:</strong> Lleva un yogurt con toppings gratis al comprar cualquier combo.</li>
@@ -172,11 +214,8 @@
             </div>
         </section>
 
-        
         <section id="facilities">
             <h2>Conoce nuestras Instalaciones</h2>
-            <h3><p>Disfruta de un espacio diseñado pensando en ti.</p></h3>
-            <h4><p>Nuestro restaurante cuenta con áreas de:</p></h4>
             <ul>
                 <li>Comedor acogedor para relajarte y disfrutar de tus comidas.</li>
                 <li>Zona de pedidos rápida para llevar tus alimentos sin esperar demasiado.</li>
@@ -184,26 +223,21 @@
             </ul>
         </section>
 
-       
         <section id="location">
             <h2>Ubicación</h2>
             <p>Nos encontramos en:</p>
             <address>
                 Arco Sur Paseo 112 lote 2, Campo Nuevo, 91097 Xalapa-Enríquez, Ver., México.
             </address>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.7866897327212!2d-96.89049042473776!3d19.507811038274557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db32481238ef93%3A0xeb45264283fcdacd!2sArco%20Sur%20Paseo%20112%20lote%202%2C%20Campo%20Nuevo%2C%2091097%20Xalapa-Enr%C3%ADquez%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1737387917724!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-            </div>
-        
-    
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
 
-    
     <footer>
         <p>&copy; 2025 El Nido del Craving. Creada por Tania Viveros Salas.</p>
     </footer>
 
     <script>
-        
         let currentIndex = 0;
         const images = document.querySelectorAll('.carousel-images img');
         const totalImages = images.length;
@@ -223,8 +257,8 @@
             document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
         }
     </script>
-
 </body>
 </html>
+
 
 
